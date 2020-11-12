@@ -95,6 +95,188 @@ exports.seed = function(knex) {
           choiceC: "Avengers: Infinity War (2018)",
           choiceD: "Donnie Darko (2001)",
           correct: "Deadpool (2016)"
+        },{
+          shot_src: "https://m.media-amazon.com/images/M/MV5BMTc0NzMzMDQ3NF5BMl5BanBnXkFtZTcwMzg5Mjc4NA@@._V1_FMjpg_UX1024_.jpg",
+          choiceA: "Prospect (2018)",
+          choiceB: "Thor: Ragnarok (2017)",
+          choiceC: "Avengers: Infinity War (2018)",
+          choiceD: "Donnie Darko (2001)",
+          correct: "Donnie Darko (2001)"
+        },{
+          shot_src: "https://m.media-amazon.com/images/M/MV5BMTc0NzMzMDQ3NF5BMl5BanBnXkFtZTcwMzg5Mjc4NA@@._V1_FMjpg_UX1024_.jpg",
+          choiceA: "E.T. the Extra-Terrestrial (1982)",
+          choiceB: "Thor: Ragnarok (2017)",
+          choiceC: "A Clockwork Orange (1971)",
+          choiceD: "Donnie Darko (2001)",
+          correct: "Donnie Darko (2001)"
+        },{
+          shot_src: "https://m.media-amazon.com/images/M/MV5BMTc5MDI3Njg4Nl5BMl5BanBnXkFtZTgwNzE5Mjc0NjM@._V1_FMjpg_UX1024_.jpg",
+          choiceA: "Alita: Battle Angel (2019)",
+          choiceB: "Them! (1954)",
+          choiceC: "Idiocracy (2006)",
+          choiceD: "The Platform (2019)",
+          correct: "Alita: Battle Angel (2019)"
+        },{
+          shot_src: "https://m.media-amazon.com/images/M/MV5BNzUzNDk3MjM4NV5BMl5BanBnXkFtZTgwNjkxOTMyMjE@._V1_FMjpg_UX936_.jpg",
+          choiceA: "Alita: Battle Angel (2019)",
+          choiceB: "Guardians of the Galaxy (2014)",
+          choiceC: "The Meg (2018)",
+          choiceD: "The Platform (2019)",
+          correct: "Guardians of the Galaxy (2014)"
+        },{
+          shot_src: "https://m.media-amazon.com/images/M/MV5BMTYxNjA3NTQwMV5BMl5BanBnXkFtZTgwOTMzMzQwNjM@._V1_FMjpg_UX1024_.jpg",
+          choiceA: "Watchmen (2009)",
+          choiceB: "Guardians of the Galaxy (2014)",
+          choiceC: "The Meg (2018)",
+          choiceD: "The Platform (2019)",
+          correct: "The Meg (2018)"
+        },{
+          shot_src: "https://m.media-amazon.com/images/M/MV5BYjliMTYwYjEtMTZhOS00ZGRmLThhMWMtZmI4M2ViNGIwZTFlXkEyXkFqcGdeQXVyOTc5MDI5NjE@._V1_FMjpg_UX1024_.jpg",
+          choiceA: "Oblivion (I) (2013)",
+          choiceB: "Dune (1984)",
+          choiceC: "The Meg (2018)",
+          choiceD: "Outland (1981)",
+          correct: "Outland (1981)"
+        },{
+          shot_src: "https://m.media-amazon.com/images/M/MV5BMTM1MTU5NzM0MF5BMl5BanBnXkFtZTcwNzY3MTUzNA@@._V1_FMjpg_UX1024_.jpg",
+          choiceA: "Avatar (2009)",
+          choiceB: "Dune (1984)",
+          choiceC: "The Predator (2018)",
+          choiceD: "Color Out of Space (2019)",
+          correct: "Avatar (2009)"
+        },{
+          shot_src: "https://m.media-amazon.com/images/M/MV5BMzEzZDU2ZDUtNTE2My00NWM1LWIzOWUtMDBkNWRkMjkwY2ZkXkEyXkFqcGdeQXVyMjUyNDk2ODc@._V1_FMjpg_UX550_.jpg",
+          choiceA: "Guardians of the Galaxy (2014)",
+          choiceB: "Idiocracy (2006)",
+          choiceC: "Swamp Thing (2019)",
+          choiceD: "Color Out of Space (2019)",
+          correct: "Idiocracy (2006)"
+        },{
+          shot_src: "https://m.media-amazon.com/images/M/MV5BMTM2NjQzODU3MF5BMl5BanBnXkFtZTcwNzU4MzczOQ@@._V1_FMjpg_UX1024_.jpg",
+          choiceA: "Jurassic Park (1993)",
+          choiceB: "Idiocracy (2006)",
+          choiceC: "Oblivion (I) (2013)",
+          choiceD: "Them! (1954)",
+          correct: "Oblivion (I) (2013)"
+        },{
+          shot_src: "https://m.media-amazon.com/images/M/MV5BNGE0OThjOTAtNmQ5Ny00NjUzLTk1OTItY2NjZWYwNDlkZmJlXkEyXkFqcGdeQXVyNjA5NDgxNTg@._V1_FMjpg_UX1024_.jpg",
+          choiceA: "Captain Marvel (2019)",
+          choiceB: "Idiocracy (2006)",
+          choiceC: "Solo: A Star Wars Story (2018)",
+          choiceD: "The Platform (2019)",
+          correct: "The Platform (2019)"
+        },{
+          shot_src: "https://m.media-amazon.com/images/M/MV5BMjc4MDQ0OTA5MF5BMl5BanBnXkFtZTgwOTU3MzgxMTI@._V1_FMjpg_UX1024_.jpg",
+          choiceA: "Dune (1984)",
+          choiceB: "Swamp Thing (2019)",
+          choiceC: "Rogue One: A Star Wars Story (2016)",
+          choiceD: "The Platform (2019)",
+          correct: "Dune (1984)"
+        },{
+          shot_src: "https://m.media-amazon.com/images/M/MV5BMTc2MDU3MjM2N15BMl5BanBnXkFtZTcwODczMTY2Mw@@._V1_FMjpg_UX1024_.jpg",
+          choiceA: "Rogue One: A Star Wars Story (2016)",
+          choiceB: "Star Wars: Episode VI - Return of the Jedi (1983)",
+          choiceC: "Rogue One: A Star Wars Story (2016)",
+          choiceD: "Wonder Woman (2017)",
+          correct: "Star Wars: Episode VI - Return of the Jedi (1983)"
+        },{
+          shot_src: "https://m.media-amazon.com/images/M/MV5BMTc5OTkxOTE0MF5BMl5BanBnXkFtZTgwMDAwOTg0NTM@._V1_FMjpg_UX1024_.jpg",
+          choiceA: "Rogue One: A Star Wars Story (2016)",
+          choiceB: "Prometheus (I) (2012)",
+          choiceC: "The Predator (2018)",
+          choiceD: "Alien: Covenant (2017)",
+          correct: "The Predator (2018)"
+        },{
+          shot_src: "https://m.media-amazon.com/images/M/MV5BMTQwMDM4NDg1MF5BMl5BanBnXkFtZTcwMTg1MDYxNw@@._V1_FMjpg_UX1024_.jpg",
+          choiceA: "Swamp Thing (2019)",
+          choiceB: "Prometheus (I) (2012)",
+          choiceC: "The Predator (2018)",
+          choiceD: "Oblivion (I) (2013)",
+          correct: "Prometheus (I) (2012)"
+        },{
+          shot_src: "https://m.media-amazon.com/images/M/MV5BMjIxNjc1MDQwM15BMl5BanBnXkFtZTgwMDYzNzM0NzM@._V1_FMjpg_UX1024_.jpg",
+          choiceA: "Them! (1954)",
+          choiceB: "Idiocracy (2006)",
+          choiceC: "Captain Marvel (2019)",
+          choiceD: "Oblivion (I) (2013)",
+          correct: "Captain Marvel (2019)"
+        },{
+          shot_src: "https://m.media-amazon.com/images/M/MV5BMjM4MTM5Nzg3Ml5BMl5BanBnXkFtZTgwNzMyOTYzMjI@._V1_FMjpg_UX1024_.jpg",
+          choiceA: "Time Bandits (1981)",
+          choiceB: "Idiocracy (2006)",
+          choiceC: "Captain Marvel (2019)",
+          choiceD: "Wonder Woman (2017)",
+          correct: "Wonder Woman (2017)"
+        },{
+          shot_src: "https://m.media-amazon.com/images/M/MV5BMTU5Njg1MDU0MV5BMl5BanBnXkFtZTgwNDU3MjA2MTI@._V1_FMjpg_UX1024_.jpg",
+          choiceA: "Alien: Covenant (2017)",
+          choiceB: "Aliens (1986)",
+          choiceC: "Gemini Man (2019)",
+          choiceD: "Lucy (I) (2014)",
+          correct: "Alien: Covenant (2017)"
+        },{
+          shot_src: "https://m.media-amazon.com/images/M/MV5BMTg4NDU2NjQxM15BMl5BanBnXkFtZTgwMjAxMzMyMjE@._V1_FMjpg_UX1024_.jpg",
+          choiceA: "28 Days Later... (2002)",
+          choiceB: "Lucy (I) (2014)",
+          choiceC: "Gemini Man (2019)",
+          choiceD: "Ghostbusters (2016)",
+          correct: "Lucy (I) (2014)"
+        },{
+          shot_src: "https://m.media-amazon.com/images/M/MV5BNjA1ODA2MDI4NF5BMl5BanBnXkFtZTcwMjkxNTIzMw@@._V1_FMjpg_UX1024_.jpg",
+          choiceA: "28 Days Later... (2002)",
+          choiceB: "Lucy (I) (2014)",
+          choiceC: "Iron Man (2008)",
+          choiceD: "Her (2013)",
+          correct: "Iron Man (2008)"
+        },{
+          shot_src: "https://m.media-amazon.com/images/M/MV5BZDUxMDI2YWItOWEwYS00MjUzLTllZjctNzYyZTBkYmI0YTFhXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_FMjpg_UX1024_.jpg",
+          choiceA: "The Avengers (2012)",
+          choiceB: "Ghostbusters (2016)",
+          choiceC: "Iron Man (2008)",
+          choiceD: "Gemini Man (2019)",
+          correct: "Gemini Man (2019)"
+        },{
+          shot_src: "https://m.media-amazon.com/images/M/MV5BMjA1MDIzNTA5NV5BMl5BanBnXkFtZTgwNzYyODk0NzE@._V1_FMjpg_UX1024_.jpg",
+          choiceA: "Ghostbusters (2016)",
+          choiceB: "Aliens (1986)",
+          choiceC: "2012 (I) (2009)",
+          choiceD: "Gemini Man (2019)",
+          correct: "Ghostbusters (2016)"
+        },{
+          shot_src: "https://m.media-amazon.com/images/M/MV5BMTM2YTgyYWItZWE4Yi00Yjk0LTgyZmMtMGRmMjRjMTM3ZWYxXkEyXkFqcGdeQXVyOTc5MDI5NjE@._V1_FMjpg_UX1024_.jpg",
+          choiceA: "Eternal Sunshine of the Spotless Mind (2004)",
+          choiceB: "28 Days Later... (2002)",
+          choiceC: "2012 (I) (2009)",
+          choiceD: "Venom (2018)",
+          correct: "28 Days Later... (2002)"
+        },{
+          shot_src: "https://m.media-amazon.com/images/M/MV5BMjQxMTMzNTE1OF5BMl5BanBnXkFtZTgwNDA5MDIyMjI@._V1_FMjpg_UX1024_.jpg",
+          choiceA: "Synchronic (2019)",
+          choiceB: "28 Days Later... (2002)",
+          choiceC: "Guardians of the Galaxy Vol. 2 (2017)",
+          choiceD: "Venom (2018)",
+          correct: "Guardians of the Galaxy Vol. 2 (2017)"
+        },{
+          shot_src: "https://m.media-amazon.com/images/M/MV5BMTYxMTEwODk5OV5BMl5BanBnXkFtZTgwMDkwNjM3MDE@._V1_FMjpg_UX1024_.jpg",
+          choiceA: "Synchronic (2019)",
+          choiceB: "World War Z (2013)",
+          choiceC: "The Shape of Water (2017)",
+          choiceD: "Her (2013)",
+          correct: "Her (2013)"
+        },{
+          shot_src: "https://m.media-amazon.com/images/M/MV5BNTAzMzYzOTE3Ml5BMl5BanBnXkFtZTgwNjM3NjU4NjM@._V1_FMjpg_UX1024_.jpg",
+          choiceA: "Venom (2018)",
+          choiceB: "They Live (1988)",
+          choiceC: "Captain America: The First Avenger (2011)",
+          choiceD: "Her (2013)",
+          correct: "Venom (2018)"
+        },{
+          shot_src: "https://m.media-amazon.com/images/M/MV5BMjIwYjM1MWYtNjBjZS00NTRiLWJmMDItNjA5ZGFhYzQ4ZGViXkEyXkFqcGdeQXVyNDg2MjUxNjM@._V1_FMjpg_UX1024_.jpg",
+          choiceA: "The Avengers (2012)",
+          choiceB: "Synchronic (2019)",
+          choiceC: "The Shape of Water (2017)",
+          choiceD: "Transformers (2007)",
+          correct: "The Shape of Water (2017)"
       }]);
     });
 };

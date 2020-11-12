@@ -122,5 +122,11 @@ app.get("/questions", authenticate, (request, response) => {
             response.json({ questions })
         })
 })
+app.get("/questions_02", authenticate, (request, response) => {
+    database("questions_02").select()
+        .then(questions => {
+            response.json({ questions })
+        })
+})
 
 app.listen(PORT, () => console.log(`Listening on ... ${PORT}`))
