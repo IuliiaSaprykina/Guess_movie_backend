@@ -277,6 +277,69 @@ exports.seed = function(knex) {
           choiceC: "The Shape of Water (2017)",
           choiceD: "Transformers (2007)",
           correct: "The Shape of Water (2017)"
+        },{
+          shot_src: "https://m.media-amazon.com/images/M/MV5BOTA0NzMyMTE1M15BMl5BanBnXkFtZTcwNTk2NTIyMw@@._V1_FMjpg_UX1024_.jpg",
+          choiceA: "Books of Blood (2020)",
+          choiceB: "Synchronic (2019)",
+          choiceC: "The Shape of Water (2017)",
+          choiceD: "Transformers (2007)",
+          correct: "Transformers (2007)"
+        },{
+          shot_src: "https://m.media-amazon.com/images/M/MV5BNTBmMWE2NDItYTRkZC00ZmVjLThhZjUtODdiMzc1YjQ2MDcyXkEyXkFqcGdeQXVyMTcwNTE1Ng@@._V1_FMjpg_UX1024_.jpg",
+          choiceA: "They Live (1988)",
+          choiceB: "Captain America: The First Avenger (2011)",
+          choiceC: "Terminator 2: Judgment Day (1991)",
+          choiceD: "Star Wars: Episode VII - The Force Awakens (2015)",
+          correct: "They Live (1988)"
+        },{
+          shot_src: "https://m.media-amazon.com/images/M/MV5BMTg5NTM0NzY5MV5BMl5BanBnXkFtZTgwNDQ5MTE2NjM@._V1_FMjpg_UX1024_.jpg",
+          choiceA: "They Live (1988)",
+          choiceB: "Bird Box (2018)",
+          choiceC: "X-Men: Apocalypse (2016)",
+          choiceD: "Spontaneous (II) (2020)",
+          correct: "Bird Box (2018)"
+        },{
+          shot_src: "https://m.media-amazon.com/images/M/MV5BMTkzMzgwMDg5Nl5BMl5BanBnXkFtZTcwMzExMTI5Mg@@._V1_FMjpg_UX1024_.jpg",
+          choiceA: "Back to the Future Part II (1989)",
+          choiceB: "Bird Box (2018)",
+          choiceC: "2012 (I) (2009)",
+          choiceD: "Snowpiercer (2013)",
+          correct: "2012 (I) (2009)"
+        },{
+          shot_src: "https://m.media-amazon.com/images/M/MV5BMTkzMzgwMDg5Nl5BMl5BanBnXkFtZTcwMzExMTI5Mg@@._V1_FMjpg_UX1024_.jpg",
+          choiceA: "The Terminator (1984)",
+          choiceB: "Ad Astra (2019)",
+          choiceC: "Books of Blood (2020)",
+          choiceD: "X-Men: Apocalypse (2016)",
+          correct: "X-Men: Apocalypse (2016)"
+        },{
+          shot_src: "https://m.media-amazon.com/images/M/MV5BMTQ3NTY2MDcxMF5BMl5BanBnXkFtZTgwMzEyNzU5NzE@._V1_FMjpg_UX1024_.jpg",
+          choiceA: "The Terminator (1984)",
+          choiceB: "Ad Astra (2019)",
+          choiceC: "Books of Blood (2020)",
+          choiceD: "X-Men: Apocalypse (2016)",
+          correct: "X-Men: Apocalypse (2016)"
+        },{
+          shot_src: "https://m.media-amazon.com/images/M/MV5BMTM5NzI4Mjk3N15BMl5BanBnXkFtZTcwNTQzNjgwMw@@._V1_FMjpg_UX1024_.jpg",
+          choiceA: "Hocus Pocus (1993)",
+          choiceB: "Ad Astra (2019)",
+          choiceC: "The Witches (1990)",
+          choiceD: "X-Men: Apocalypse (2016)",
+          correct: "Hocus Pocus (1993)"
+        },{
+          shot_src: "https://m.media-amazon.com/images/M/MV5BYjJjMWYyZTktNTMzZi00NmYwLTk0ZmEtZDdiMTU0ZDA4ZDU0XkEyXkFqcGdeQXVyMjc1NTI5NQ@@._V1_FMjpg_UX1024_.jpg",
+          choiceA: "Beetlejuice (1988)",
+          choiceB: "The Addams Family (1991)",
+          choiceC: "The Witches (1990)",
+          choiceD: "The Gentlemen (2019)",
+          correct: "The Addams Family (1991)"
+        },{
+          shot_src: "https://m.media-amazon.com/images/M/MV5BMjQwNTgzMjkyMl5BMl5BanBnXkFtZTgwMjg2Mjk3NjM@._V1_FMjpg_UX1024_.jpg",
+          choiceA: "Beetlejuice (1988)",
+          choiceB: "Parasite (2019)",
+          choiceC: "Clue (1985)",
+          choiceD: "Knives Out (2019)",
+          correct: "Beetlejuice (1988)"
       }]);
     });
 };
