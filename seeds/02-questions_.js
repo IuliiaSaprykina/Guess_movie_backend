@@ -340,6 +340,34 @@ exports.seed = function(knex) {
           choiceC: "Clue (1985)",
           choiceD: "Knives Out (2019)",
           correct: "Beetlejuice (1988)"
+        },{
+          shot_src: "https://m.media-amazon.com/images/M/MV5BMjM4NjM4MjU3MF5BMl5BanBnXkFtZTcwOTQwNzgwMw@@._V1_FMjpg_UX1024_.jpg",
+          choiceA: "Easy A (2010)",
+          choiceB: "Ghostbusters (1984)",
+          choiceC: "Cats (2019)",
+          choiceD: "Casper (1995)",
+          correct: "Casper (1995)"
+        },{
+          shot_src: "https://m.media-amazon.com/images/M/MV5BMTg5Nzk3NjA5NF5BMl5BanBnXkFtZTYwNzQ5NDM3._V1_FMjpg_UX480_.jpg",
+          choiceA: "Love Actually (2003)",
+          choiceB: "Jojo Rabbit (2019)",
+          choiceC: "Cats (2019)",
+          choiceD: "The Lost Boys (1987)",
+          correct: "Love Actually (2003)"
+        },{
+          shot_src: "https://m.media-amazon.com/images/M/MV5BNDJkMjAyMGUtOTY4MS00ODliLWFlZGEtNDEwMzg1MTU3OGVlXkEyXkFqcGdeQXVyNjc4NjAwODg@._V1_FMjpg_UX1024_.jpg",
+          choiceA: "Love Actually (2003)",
+          choiceB: "Jojo Rabbit (2019)",
+          choiceC: "Dazed and Confused (1993)",
+          choiceD: "The Big Lebowski (1998)",
+          correct: "Jojo Rabbit (2019)"
+        },{
+          shot_src: "https://m.media-amazon.com/images/M/MV5BN2MxOGU2NTEtZTQ3Yy00ODZkLTlhZDgtNjUyNWJhODA3NmVjXkEyXkFqcGdeQXVyOTc5MDI5NjE@._V1_FMjpg_UX1024_.jpg",
+          choiceA: "Blended (2014)",
+          choiceB: "Jojo Rabbit (2019)",
+          choiceC: "13 Going on 30 (2004)",
+          choiceD: "We're the Millers (2013)",
+          correct: "13 Going on 30 (2004)"
       }]);
     });
 };
