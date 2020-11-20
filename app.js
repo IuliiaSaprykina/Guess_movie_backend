@@ -91,6 +91,22 @@ const allUsers = (request, response) => {
         })
 }
 
+const allQuestions = (request, response) => {
+    database("questions").select()
+        .then(question => {
+            response.json({ question })
+        })
+        .catch(error => { console.log('caught', error.message); });
+}
+
+const allQuestions_02 = (request, response) => {
+    database("questions_02").select()
+        .then(question => {
+            response.json({ question })
+        })
+        .catch(error => { console.log('caught', error.message); });
+}
+
 function authenticate(request, response, next){
     const token  = request.headers.authorization.split(" ")[1]
     const secret = "HERESYOURTOKEN";
@@ -116,6 +132,8 @@ app.patch("/users/:id", updateUser);
 app.post("/users", createUser);
 app.post("/login", login);
 app.get("/users", allUsers);
+app.get("/questions_free", allQuestions);
+app.get("/questions_free_02", allQuestions_02);
 app.get("/questions", authenticate, (request, response) => {
     database("questions").select()
         .then(questions => {
