@@ -5,11 +5,11 @@ module.exports = {
   },
   production: {
     client: 'pg',
-    use_env_variable: "DATABASE_URL",
     connection: process.env.DATABASE_URL,
+    ssl: { rejectUnauthorized: false },
     migrations: {
-      tableName: 'knex_migrations'
+        directory: './data/migrations',
     },
-    useNullAsDefault: true
-  }
+    seeds: { directory: './data/seeds' },
+}
 };
