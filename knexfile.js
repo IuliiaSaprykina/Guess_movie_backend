@@ -4,7 +4,7 @@ module.exports = {
     connection: "postgres:///questions",
   },
   production: {
-    client: 'pg',
+    client: 'postgresql',
     database: {
       type: "postgres",
       host: "ec2-54-144-251-233.compute-1.amazonaws.com",
