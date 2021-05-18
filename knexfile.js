@@ -4,13 +4,12 @@ module.exports = {
     connection: "postgres:///questions",
   },
   production: {
-    use_env_variable: 'DATABASE_URL',
-    client: 'postgresql',
-    ssl: true,
+    client: 'pg',
+    connection: process.env.DATABASE_URL,
+    ssl: { rejectUnauthorized: false },
     dialectOptions: {
-      ssl: { require: true },
+      "ssl": {"require":true }
     },
-    logging: false,
     migrations: {
         directory: './migrations',
     },
