@@ -8,7 +8,7 @@ module.exports = {
     connection: process.env.DATABASE_URL,
     ssl: { rejectUnauthorized: false },
     migrations: {
-        directory: './data/migrations',
+        directory: './migrations',
     },
     seeds: { directory: './data/seeds' },
 }
