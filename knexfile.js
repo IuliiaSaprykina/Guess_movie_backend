@@ -5,9 +5,9 @@ module.exports = {
   },
   production: {
     client: 'pg',
-    connection: process.env.DATABASE_URL + `?ssl=true`,
+    connection: "postgres:///questions",
     migrations: {
-      directory: './db/migrations'
+      tableName: 'knex_migrations'
     },
     useNullAsDefault: true
   }
