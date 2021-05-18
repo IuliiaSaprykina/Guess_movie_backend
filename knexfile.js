@@ -7,12 +7,12 @@ module.exports = {
     client: 'postgresql',
     database: {
       type: "postgres",
-      host: "ec2-54-144-251-233.compute-1.amazonaws.com",
+      host: "ec2-34-206-8-52.compute-1.amazonaws.com",
       port: 5432,
-      username: "lbwurefnkbrljn",
+      username: "yhzjtxcbiyvycy",
       password:
-        "69dd2250428ae01b98c5b686e623b60d280aa7df2d76d6ad470dabe99f06df5d",
-      database: "dfej562bjbag0j",
+        "8558519dadee5d3c3a0dea94db0108dcbdec286ed1b46571b4c42c6698241641",
+      database: "d5tie78s3pvvq8",
       ssl: true,
       extra: {
         ssl: {
