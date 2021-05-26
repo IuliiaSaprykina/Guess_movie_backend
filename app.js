@@ -7,7 +7,7 @@ const jwt = require("jsonwebtoken")
 const { request, response } = require("express");
 const config = require("./knexfile")[process.env.NODE_ENV || "development"]
 const database = knex(config);
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 3000;
 
 const app = express();
 app.use(cors());
@@ -40,19 +40,6 @@ const createUser = (request, response) => {
             response.send("Please choose another username")
     })
     
-}
-
-const deleteUser = (request, response) => {
-    const { score, username } = request.body
-
-    database("user")
-    .select()
-    .where( {id: request.params.id})
-    .del()
-    .returning("*")
-    .then(user => {
-        response.json({ user })
-    })
 }
 
 const updateUser = (request, response) => {
@@ -120,7 +107,6 @@ const allQuestions_02 = (request, response) => {
         .catch(error => { console.log('caught', error.message); });
 }
 
-
 function authenticate(request, response, next){
     const token  = request.headers.authorization.split(" ")[1]
     const secret = "HERESYOURTOKEN";
@@ -143,7 +129,6 @@ function authenticate(request, response, next){
 }
 
 app.patch("/users/:id", updateUser);
-app.delete("/users/:id", deleteUser);
 app.post("/users", createUser);
 app.post("/login", login);
 app.get("/users", allUsers);

@@ -1,20 +1,44 @@
+// Update with your config settings.
+
 module.exports = {
+
   development: {
-    client: 'pg',
-    connection: "postgres:///questions",
+    client: 'sqlite3',
+    connection: {
+      filename: './dev.sqlite3'
+    }
   },
-  production: {
-    client: 'pg',
-    connection: process.env.DATABASE_URL,
-    ssl: { 
-      require: true,
-      rejectUnauthorized: false 
+
+  staging: {
+    client: 'postgresql',
+    connection: {
+      database: 'my_db',
+      user:     'username',
+      password: 'password'
+    },
+    pool: {
+      min: 2,
+      max: 10
     },
     migrations: {
-        directory: __dirname + './migrations',
+      tableName: 'knex_migrations'
+    }
+  },
+
+  production: {
+    client: 'postgresql',
+    connection: {
+      database: 'my_db',
+      user:     'username',
+      password: 'password'
     },
-    seeds: { 
-      directory: __dirname + './seeds' 
+    pool: {
+      min: 2,
+      max: 10
     },
-}
+    migrations: {
+      tableName: 'knex_migrations'
+    }
+  }
+
 };
