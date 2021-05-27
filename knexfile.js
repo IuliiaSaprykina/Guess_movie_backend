@@ -24,10 +24,12 @@ module.exports = {
   },
 
   production: {
-    client: 'postgresql',
+    client: 'pg',
     // connection: process.env.DATABASE_URL,
     connection: {
-      connection: "postgres:///questions",
+      database: 'my_db',
+      user:     'username',
+      password: 'password'
     },
     pool: {
       min: 2,
@@ -39,6 +41,7 @@ module.exports = {
     seeds: {
         directory: __dirname + '/seeds',
     },
+    ssl: true
   }
 
 };
